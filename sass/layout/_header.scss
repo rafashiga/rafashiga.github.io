@@ -40,7 +40,9 @@
 
   &__logo {
     height: 3.5rem;
-    font-size: 2rem;
+    font-size: 5rem;
+    margin-top: -1rem;
+    color: $color-white;
   }
 
   &__text-box {

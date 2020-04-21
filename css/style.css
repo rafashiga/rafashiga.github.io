@@ -170,7 +170,9 @@ body {
     left: 4rem; }
   .header__logo {
     height: 3.5rem;
-    font-size: 2rem; }
+    font-size: 5rem;
+    margin-top: -1rem;
+    color: #fff; }
   .header__text-box {
     position: absolute;
     top: 40%;
@@ -319,15 +321,15 @@ body {
 .footer {
   padding: 3rem 0;
   background: #333; }
-  .footer [class^="icon-"] {
+  .footer .material-icons {
     font-size: 6rem;
     font-weight: bold;
     background-image: linear-gradient(to right bottom, rgba(198, 66, 110, 0.8), rgba(100, 43, 115, 0.8));
     -webkit-background-clip: text;
     color: transparent;
-    display: inline-block;
-    margin-bottom: -2rem; }
+    display: inline-block; }
   .footer__title {
+    margin-top: -1.5rem;
     font-size: 3rem; }
   .footer__link-box {
     padding: 2rem 0;

@@ -280,7 +280,8 @@ body {
     font-size: 12px; }
   @media only screen and (min-width: 37.5em) {
     .tabbar {
-      display: none; } }
+      display: none;
+      visibility: hidden; } }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -441,6 +442,9 @@ body {
     .project-box__footer a {
       font-size: 1.2rem;
       color: #fff; }
+      .project-box__footer a:focus {
+        outline: 2px solid #fff;
+        padding: 2px; }
     .project-box__footer--1 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
     .project-box__footer--2 {

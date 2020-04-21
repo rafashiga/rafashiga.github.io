@@ -34,5 +34,6 @@
 
   @include respond(phone-min) {
     display: none;
+    visibility: hidden;
   }
 }

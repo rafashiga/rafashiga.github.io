@@ -164,15 +164,6 @@ body {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%); } }
-  .header__logo-box {
-    position: absolute;
-    top: 4rem;
-    left: 4rem; }
-  .header__logo {
-    height: 3.5rem;
-    font-size: 5rem;
-    margin-top: -1rem;
-    color: #fff; }
   .header__text-box {
     position: absolute;
     top: 40%;
@@ -183,132 +174,29 @@ body {
       .header__text-box {
         top: 50%; } }
 
-.navigation__checkbox {
-  display: none; }
-
-.navigation__button {
-  background-color: #fff;
-  height: 3.75rem;
-  width: 3.75rem;
-  position: fixed;
-  top: 3.75rem;
-  right: 3.75rem;
-  border-radius: 50%;
-  z-index: 2000;
-  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
-  text-align: center;
-  cursor: pointer; }
-  @media only screen and (max-width: 56.25em) {
-    .navigation__button {
-      top: 4rem;
-      right: 4rem; } }
-  @media only screen and (max-width: 37.5em) {
-    .navigation__button {
-      top: 3rem;
-      right: 3rem; } }
-
-.navigation__background {
-  height: 3rem;
-  width: 3rem;
-  border-radius: 50%;
-  position: fixed;
-  top: 4rem;
-  right: 4rem;
-  background-image: radial-gradient(#c6426e, #642b73);
-  z-index: 1000;
-  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
-  @media only screen and (max-width: 56.25em) {
-    .navigation__background {
-      top: 4.5rem;
-      right: 4.5rem; } }
-  @media only screen and (max-width: 37.5em) {
-    .navigation__background {
-      top: 3.5rem;
-      right: 3.5rem; } }
-
-.navigation__nav {
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1500;
-  opacity: 0;
-  width: 0;
-  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
-
-.navigation__list {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  list-style: none;
-  text-align: center;
-  width: 100%; }
-
-.navigation__item {
-  margin: 1rem; }
-
-.navigation__link:link, .navigation__link:visited {
-  display: inline-block;
-  font-size: 2rem;
-  font-weight: 300;
-  padding: 0.5rem 1rem;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
-  background-size: 220%;
-  transition: all 0.4s; }
-  .navigation__link:link span, .navigation__link:visited span {
-    margin-right: 1.5rem;
-    display: inline-block; }
-
-.navigation__link:hover, .navigation__link:active {
-  background-position: 100%;
-  color: #7c388d;
-  transform: translateX(1rem); }
-
-.navigation__checkbox:checked ~ .navigation__background {
-  transform: scale(80); }
-
-.navigation__checkbox:checked ~ .navigation__nav {
-  opacity: 1;
-  width: 100%; }
-
-.navigation__icon {
-  position: relative;
-  margin-top: 1.9rem; }
-  .navigation__icon, .navigation__icon::before, .navigation__icon::after {
-    width: 1.5rem;
-    height: 2px;
-    background-color: #333;
-    display: inline-block; }
-  .navigation__icon::before, .navigation__icon::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    transition: all 0.2s; }
-  .navigation__icon::before {
-    top: -0.5rem; }
-  .navigation__icon::after {
-    top: 0.5rem; }
-
-.navigation__button:hover .navigation__icon::before {
-  top: -0.65rem; }
-
-.navigation__button:hover .navigation__icon::after {
-  top: 0.65rem; }
-
-.navigation__checkbox:checked + .navigation__button .navigation__icon {
-  background-color: transparent; }
-
-.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
-  top: 0;
-  transform: rotate(135deg); }
-
-.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
-  top: 0;
-  transform: rotate(-135deg); }
+.navigation {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  text-transform: uppercase; }
+  .navigation__logo-box {
+    top: 2rem;
+    left: 2rem; }
+  .navigation__logo {
+    font-size: 4rem;
+    color: #fff; }
+  .navigation__list {
+    list-style: none;
+    display: flex; }
+  .navigation__link {
+    color: #fff;
+    margin: 0 1rem; }
+    .navigation__link:hover, .navigation__link:active {
+      color: #fff;
+      font-weight: 500;
+      border-bottom: 5px solid #c6426e; }
 
 .container {
   max-width: 72rem;

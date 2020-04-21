@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shiga</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+    type="text/css">
+  <link rel="stylesheet" href="css/icon-font.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+
+    <div class="navigation__background">&nbsp;</div>
+
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#about" class="navigation__link">
+            <span> -</span>About me
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a href="#knowledge" class="navigation__link">
+            <span> -</span>knowledge
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a href="#projects" class="navigation__link">
+            <span> -</span>My Projects
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <header class="header">
+    <div class="header__logo-box">
+      <img src="assets//logo.svg" alt="Logo" class="header__logo">
+    </div>
+
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main">Rafael Shiga</span>
+        <span class="heading-primary--sub">Brazilian Developer</span>
+        <br> site under construction
+      </h1>
+
+      <a href="#about" class="btn btn--white btn--animated">about me</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- * section -->
+    <section class="about" id="about">
+      <div class="container text-center">
+        <h3 class="heading-secondary mb-lg">
+          ABOUT ME
+        </h3>
+        <div class="mb-md">
+          <img src="assets/photo.jpg" alt="Rafael" class="about__photo">
+        </div>
+        <p class="about__description">
+          HI! I'm Rafael Shiga. Nice to meet you! <br>
+          I'm 26 years old. I live in São Paulo, Brazil.
+        </p>
+      </div>
+    </section>
+
+    <!-- * section -->
+    <section class="knowledge" id="knowledge">
+      <div class="container">
+        <div class="row around-lg">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="card text-center">
+              <i class="icon-basic-settings"></i>
+              <h3 class="card__title">Developer</h3>
+              <div class="card__body">
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>Angular</li>
+                  <li>ReactJS</li>
+                  <li>MySQL</li>
+                  <li>PHP</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="card text-center">
+              <i class="icon-basic-photo"></i>
+              <h3 class="card__title">Photographer</h3>
+              <div class="card__body">
+                <ul>
+                  <li>Nikon D3400</li>
+                  <li>Nikon 50mm 1.8g</li>
+                  <li>Nikon 70-300mm 4.5-6.3</li>
+                  <li>Sigma 17-70mm 2.8-4</li>
+                  <li><a href="https://www.instagram.com/shiga.photos/" target="_blank">@shiga.photos</a></li>
+                  <li><a href="https://unsplash.com/@rshiga" target="_blank">Wallpapers</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- * section -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="text-center">
+          <h3 class="heading-secondary mb-lg">
+            My Projects
+          </h3>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <div class="project-box">
+                <div class="project-box__image project-box__image--1">
+                  &nbsp;
+                </div>
+                <h4 class="project-box__heading">
+                  <span class="project-box__heading-span project-box__heading-span--1">
+                    Shiga Projects v1
+                  </span>
+                </h4>
+                <div class="project-box__body">
+                  <p>
+                    HTML + CSS + JS
+                    <br>
+                    My old version of this website
+                  </p>
+                </div>
+                <div class="project-box__footer project-box__footer--1">
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <a href="https://rafashiga.github.io/shiga-projects-v1/" target="_blank">
+                        SITE
+                      </a>
+                    </div>
+                    <div class="col-xs-6">
+                      <a href="https://github.com/rafashiga/shiga-projects-v1/tree/master" target="_blank">Github</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- * -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <div class="project-box">
+                <div class="project-box__image project-box__image--2">
+                  &nbsp;
+                </div>
+                <h4 class="project-box__heading">
+                  <span class="project-box__heading-span project-box__heading-span--2">
+                    Rick and Morty App
+                  </span>
+                </h4>
+                <div class="project-box__body">
+                  <p>Angular 8 + Bootstrap 4.3 + <a href="https://rickandmortyapi.com/" target="_blank">Rick and Morty
+                      GraphQL API</a></p>
+                </div>
+                <div class="project-box__footer project-box__footer--2">
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <a href="https://rafashiga.github.io/rickandmorty/#/" target="_blank">
+                        SITE
+                      </a>
+                    </div>
+                    <div class="col-xs-6">
+                      <a href="https://github.com/rafashiga/rickandmorty-app" target="_blank">Github</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- * -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <div class="project-box">
+                <div class="project-box__image project-box__image--3">
+                  &nbsp;
+                </div>
+                <h4 class="project-box__heading">
+                  <span class="project-box__heading-span project-box__heading-span--3">
+                    Marvel Test App
+                  </span>
+                </h4>
+                <div class="project-box__body">
+                  <p>
+                    ReactJS + Marvel API
+                    <br>
+                    It's was developed for a job interview
+                  </p>
+                </div>
+                <div class="project-box__footer project-box__footer--3">
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <a href="https://rafashiga.github.io/marvel/" target="_blank">
+                        SITE
+                      </a>
+                    </div>
+                    <div class="col-xs-6">
+                      <a href="https://github.com/rafashiga/marvel-test" target="_blank">Github</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- * footer -->
+  <footer class="footer">
+    <div class="container text-center">
+      <i class="icon-basic-anchor"></i>
+      <div class="footer__title-box mb-md">
+        <h3 class="heading-secondary footer__title">SHIGA</h3>
+      </div>
+      <div class="footer__link-box">
+        <a href="https://www.instagram.com/shiga.photos/" target="_blank" class="footer__link">Instagram</a>
+        <a href="https://www.linkedin.com/in/shiga-rafael?originalSubdomain=br" target="_blank"
+          class="footer__link">LinkedIn</a>
+        <a href="https://github.com/rafashiga" target="_blank" class="footer__link">Github</a>
+      </div>
+      <div class="footer__copyright">
+        Developed by me © 2020
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>

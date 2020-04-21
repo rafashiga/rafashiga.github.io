@@ -1,0 +1,135 @@
+.project-box {
+  height: 40rem;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+  border-radius: 3px;
+  position: relative;
+
+  &__image {
+    background-size: cover;
+    background-position: center;
+    height: 23rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+    &--1 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-blue-light,
+          $color-blue-dark
+        ),
+        url(../assets/projects/shiga-projects-v1.png);
+    }
+
+    &--2 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-green-light,
+          $color-green-dark
+        ),
+        url(../assets/projects/rickandmorty.jpg);
+    }
+
+    &--3 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-red-light,
+          $color-red-dark
+        ),
+        url(../assets/projects/marvel-test.png);
+    }
+  }
+
+  &__heading {
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: $color-white;
+    position: absolute;
+    top: 15rem;
+    right: 2rem;
+    width: 75%;
+  }
+
+  &__heading-span {
+    padding: 0.5rem 1rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+
+    &--1 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-blue-light, 0.85),
+        rgba($color-blue-dark, 0.85)
+      );
+    }
+
+    &--2 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-green-light, 0.85),
+        rgba($color-green-dark, 0.85)
+      );
+    }
+
+    &--3 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-red-light, 0.85),
+        rgba($color-red-dark, 0.85)
+      );
+    }
+  }
+
+  &__body {
+    margin: 0 auto;
+    padding: 3rem 0;
+    width: 80%;
+    font-size: 1.2rem;
+  }
+
+  &__footer {
+    height: 4rem;
+    padding-top: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: $color-white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+
+    a {
+      font-size: 1.2rem;
+      color: $color-white;
+    }
+
+    &--1 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-blue-light, 0.85),
+        rgba($color-blue-dark, 0.85)
+      );
+    }
+
+    &--2 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-green-light, 0.85),
+        rgba($color-green-dark, 0.85)
+      );
+    }
+
+    &--3 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-red-light, 0.85),
+        rgba($color-red-dark, 0.85)
+      );
+    }
+  }
+}

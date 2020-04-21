@@ -164,14 +164,21 @@ body {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%); } }
+  @media only screen and (max-width: 75em) {
+    .header {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%); } }
   .header__text-box {
     position: absolute;
-    top: 40%;
+    width: 35rem;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
     @media only screen and (max-width: 37.5em) {
       .header__text-box {
+        width: 20rem;
+        text-align: center;
         top: 50%; } }
 
 .navigation {
@@ -190,6 +197,10 @@ body {
   .navigation__list {
     list-style: none;
     display: flex; }
+    @media only screen and (max-width: 37.5em) {
+      .navigation__list {
+        display: none;
+        visibility: hidden; } }
   .navigation__link {
     color: #fff;
     margin: 0 1rem; }
@@ -209,6 +220,9 @@ body {
 .footer {
   padding: 3rem 0;
   background: #333; }
+  @media only screen and (max-width: 37.5em) {
+    .footer {
+      margin-bottom: 4rem; } }
   .footer .material-icons {
     font-size: 6rem;
     font-weight: bold;
@@ -240,6 +254,33 @@ body {
   .footer__copyright {
     margin-top: 2rem;
     color: #999; }
+
+.tabbar {
+  position: fixed;
+  background: #fff;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  box-shadow: 0px -2px 13px 0px rgba(0, 0, 0, 0.2); }
+  .tabbar .material-icons {
+    background-image: linear-gradient(to right bottom, rgba(198, 66, 110, 0.8), rgba(100, 43, 115, 0.8));
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block; }
+  .tabbar__list {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+  .tabbar__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.5rem;
+    font-size: 12px; }
+  @media only screen and (min-width: 37.5em) {
+    .tabbar {
+      display: none; } }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;

@@ -2,6 +2,10 @@
   padding: 3rem 0;
   background: $color-grey-dark-3;
 
+  @include respond(phone) {
+    margin-bottom: 4rem;
+  }
+
   .material-icons {
     font-size: 6rem;
     font-weight: bold;

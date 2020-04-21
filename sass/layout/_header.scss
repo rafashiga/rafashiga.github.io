@@ -32,14 +32,22 @@
     clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
   }
 
+  @include respond(tab-land) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+  }
+
   &__text-box {
     position: absolute;
-    top: 40%;
+    width: 35rem;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 
     @include respond(phone) {
+      width: 20rem;
+      text-align: center;
       top: 50%;
     }
   }

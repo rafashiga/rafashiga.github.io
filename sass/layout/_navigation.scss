@@ -17,6 +17,11 @@
   }
 
   &__list {
+    @include respond(phone) {
+      display: none;
+      visibility: hidden;
+    }
+
     list-style: none;
     display: flex;
   }

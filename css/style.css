@@ -454,7 +454,8 @@ body {
   height: 40rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   border-radius: 3px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 2.5rem; }
   .project-box__image {
     background-size: cover;
     background-position: center;

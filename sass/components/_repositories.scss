@@ -1,0 +1,53 @@
+.repositories {
+  padding: 5rem 0;
+  position: relative;
+
+  &__card {
+    padding: 5rem 0;
+    width: 100%;
+    border-radius: 3px;
+    background: rgba($color-white, 0.9);
+
+    ul {
+      width: 80%;
+      margin: 0 auto;
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      @include respond(phone) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      li {
+        margin: 1rem 0;
+      }
+    }
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      font-weight: 600;
+      font-size: 1.4rem;
+      color: $color-primary;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      transition: all 0.2s;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color-primary-light;
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+      transform: rotate(-1deg) scale(1.1);
+      outline: none;
+    }
+  }
+
+  &__description {
+    font-size: 1rem;
+  }
+}

@@ -262,6 +262,7 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 1rem;
+  z-index: 99;
   box-shadow: 0px -2px 13px 0px rgba(0, 0, 0, 0.2); }
   .tabbar .material-icons {
     background-image: linear-gradient(to right bottom, rgba(198, 66, 110, 0.8), rgba(100, 43, 115, 0.8));

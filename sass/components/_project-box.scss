@@ -4,6 +4,13 @@
   border-radius: 3px;
   position: relative;
   margin-bottom: 2.5rem;
+  transition: all 0.3s;
+  z-index: 10;
+
+  &:hover {
+    transform: scale(1.1);
+    z-index: 20;
+  }
 
   &__image {
     background-size: cover;
@@ -16,29 +23,17 @@
     border-top-right-radius: 3px;
 
     &--1 {
-      background-image: linear-gradient(
-          to right bottom,
-          $color-blue-light,
-          $color-blue-dark
-        ),
+      background-image: linear-gradient(to right bottom, $color-blue-light, $color-blue-dark),
         url(../assets/projects/shiga-projects-v1.png);
     }
 
     &--2 {
-      background-image: linear-gradient(
-          to right bottom,
-          $color-green-light,
-          $color-green-dark
-        ),
+      background-image: linear-gradient(to right bottom, $color-green-light, $color-green-dark),
         url(../assets/projects/rickandmorty.jpg);
     }
 
     &--3 {
-      background-image: linear-gradient(
-          to right bottom,
-          $color-red-light,
-          $color-red-dark
-        ),
+      background-image: linear-gradient(to right bottom, $color-red-light, $color-red-dark),
         url(../assets/projects/marvel-test.png);
     }
   }
@@ -61,27 +56,15 @@
     box-decoration-break: clone;
 
     &--1 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba($color-blue-light, 0.85),
-        rgba($color-blue-dark, 0.85)
-      );
+      background-image: linear-gradient(to right bottom, rgba($color-blue-light, 0.85), rgba($color-blue-dark, 0.85));
     }
 
     &--2 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba($color-green-light, 0.85),
-        rgba($color-green-dark, 0.85)
-      );
+      background-image: linear-gradient(to right bottom, rgba($color-green-light, 0.85), rgba($color-green-dark, 0.85));
     }
 
     &--3 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba($color-red-light, 0.85),
-        rgba($color-red-dark, 0.85)
-      );
+      background-image: linear-gradient(to right bottom, rgba($color-red-light, 0.85), rgba($color-red-dark, 0.85));
     }
   }
 
@@ -115,27 +98,15 @@
     }
 
     &--1 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba($color-blue-light, 0.85),
-        rgba($color-blue-dark, 0.85)
-      );
+      background-image: linear-gradient(to right bottom, rgba($color-blue-light, 0.85), rgba($color-blue-dark, 0.85));
     }
 
     &--2 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba($color-green-light, 0.85),
-        rgba($color-green-dark, 0.85)
-      );
+      background-image: linear-gradient(to right bottom, rgba($color-green-light, 0.85), rgba($color-green-dark, 0.85));
     }
 
     &--3 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba($color-red-light, 0.85),
-        rgba($color-red-dark, 0.85)
-      );
+      background-image: linear-gradient(to right bottom, rgba($color-red-light, 0.85), rgba($color-red-dark, 0.85));
     }
   }
 }

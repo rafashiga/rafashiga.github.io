@@ -1,4 +1,5 @@
 const ul = document.getElementById("repo-list");
+const loading = document.getElementById("loading");
 fetch(
   "https://api.github.com/users/rafashiga/repos?sort=pushed&page=1&per_page=8"
 )
@@ -12,5 +13,9 @@ fetch(
           <span class="repositories__description">${desc}</span>`;
       li.appendChild(p);
       ul.appendChild(li);
+      loading.classList.add("hidden");
     });
+  })
+  .catch((err) => {
+    loading.classList.remove("hidden");
   });

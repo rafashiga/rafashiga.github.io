@@ -220,7 +220,7 @@
     </section>
 
     <!-- * -->
-    <section class="repositories">
+    <section class="repositories" id="repositories">
 
       <div class="bg-video">
         <video class="bg-video__content" autoplay muted loop>
@@ -230,13 +230,20 @@
       </div>
 
       <div class="container">
-
         <div class="repositories__card">
           <div class="text-center">
             <h3 class="heading-secondary mb-lg">
               Repositories
             </h3>
           </div>
+
+          <div class="text-center">
+            <div class="loading" id="loading">
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+
           <ul class="repositories__list" id="repo-list"></ul>
         </div>
       </div>

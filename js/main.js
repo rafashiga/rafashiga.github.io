@@ -9,7 +9,7 @@ fetch(
       let li = document.createElement("li");
       let p = document.createElement("p");
       const desc = description ? description : "";
-      p.innerHTML = `<a href="${html_url}" class="repositories__link">${name}</a> <br>
+      p.innerHTML = `<a href="${html_url}" target="_blank" class="repositories__link">${name}</a> <br>
           <span class="repositories__description">${desc}</span>`;
       li.appendChild(p);
       ul.appendChild(li);

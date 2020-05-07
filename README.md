@@ -1,12 +1,12 @@
-<h1 style="text-align: center">
+<h1 align="center">
   Shiga Projects
 </h1>
 
-<h3 style="text-align: center">
+<h3 align="center">
 <strong>Showcase of my projects</strong>
 </h3>
 
-<p style="text-align: center">
+<p align="center">
   <a href="#space_invader-technologies">Technologies</a>
   <br>
   <br>

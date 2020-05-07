@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img  src="./assets/img/logo-icon.png" alt="logo">
+  <img  src="./assets/img/logo.jpg" alt="logo">
   <br>
   Shiga Projects
 </h1>
@@ -19,6 +19,8 @@
   <br>
   <br>
   <img src="./assets/img/website.png">
+  <br>
+  <br>
 </p>
 
 ## :space_invader: Technologies

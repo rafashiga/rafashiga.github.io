@@ -29,4 +29,5 @@
 - HTML
 - Javascript
 - CSS / SASS (Methodologies: BEM)
+- [Flexbox Grid](http://flexboxgrid.com/)
 - Google Analytics

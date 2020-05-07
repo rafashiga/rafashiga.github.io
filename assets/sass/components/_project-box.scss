@@ -24,17 +24,17 @@
 
     &--1 {
       background-image: linear-gradient(to right bottom, $color-blue-light, $color-blue-dark),
-        url(../assets/projects/shiga-projects-v1.png);
+        url(../img/projects/shiga-projects-v1.png);
     }
 
     &--2 {
       background-image: linear-gradient(to right bottom, $color-green-light, $color-green-dark),
-        url(../assets/projects/rickandmorty.jpg);
+        url(../img/projects/rickandmorty.jpg);
     }
 
     &--3 {
       background-image: linear-gradient(to right bottom, $color-red-light, $color-red-dark),
-        url(../assets/projects/marvel-test.png);
+        url(../img/projects/marvel-test.png);
     }
   }
 

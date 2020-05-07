@@ -148,7 +148,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(198, 66, 110, 0.8), rgba(100, 43, 115, 0.8)), url(../assets/coding.jpg);
+  background-image: linear-gradient(to right bottom, rgba(198, 66, 110, 0.8), rgba(100, 43, 115, 0.8)), url(../img/coding.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -159,7 +159,7 @@ body {
       height: 100vh; } }
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
     .header {
-      background-image: linear-gradient(to right bottom, rgba(198, 66, 110, 0.8), rgba(100, 43, 115, 0.8)), url(../assets/coding.jpg); } }
+      background-image: linear-gradient(to right bottom, rgba(198, 66, 110, 0.8), rgba(100, 43, 115, 0.8)), url(../img/coding.jpg); } }
   @media only screen and (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
@@ -404,11 +404,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .project-box__image--1 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../assets/projects/shiga-projects-v1.png); }
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/projects/shiga-projects-v1.png); }
     .project-box__image--2 {
-      background-image: linear-gradient(to right bottom, #88d498, #1a936f), url(../assets/projects/rickandmorty.jpg); }
+      background-image: linear-gradient(to right bottom, #88d498, #1a936f), url(../img/projects/rickandmorty.jpg); }
     .project-box__image--3 {
-      background-image: linear-gradient(to right bottom, #f37f7f, #fa4343), url(../assets/projects/marvel-test.png); }
+      background-image: linear-gradient(to right bottom, #f37f7f, #fa4343), url(../img/projects/marvel-test.png); }
   .project-box__heading {
     font-size: 2rem;
     font-weight: 300;
@@ -552,7 +552,7 @@ body {
 
 .knowledge {
   padding: 10rem 0;
-  background-image: linear-gradient(to right bottom, rgba(198, 66, 110, 0.8), rgba(100, 43, 115, 0.8)), url(../assets/image01.jpg);
+  background-image: linear-gradient(to right bottom, rgba(198, 66, 110, 0.8), rgba(100, 43, 115, 0.8)), url(../img/image01.jpg);
   background-size: cover;
   background-position: center;
   transform: skewY(-7deg); }

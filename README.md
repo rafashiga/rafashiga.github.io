@@ -1,4 +1,6 @@
 <h1 align="center">
+  <img  src="./assets/img/logo-icon.png" alt="logo">
+  <br>
   Shiga Projects
 </h1>
 

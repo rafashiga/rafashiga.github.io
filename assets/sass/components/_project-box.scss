@@ -23,18 +23,66 @@
     border-top-right-radius: 3px;
 
     &--1 {
-      background-image: linear-gradient(to right bottom, $color-blue-light, $color-blue-dark),
+      background-image: linear-gradient(
+          to right bottom,
+          $color-blue-light,
+          $color-blue-dark
+        ),
         url(../img/projects/shiga-projects-v1.png);
     }
 
     &--2 {
-      background-image: linear-gradient(to right bottom, $color-green-light, $color-green-dark),
+      background-image: linear-gradient(
+          to right bottom,
+          $color-green-light,
+          $color-green-dark
+        ),
         url(../img/projects/rickandmorty.jpg);
     }
 
     &--3 {
-      background-image: linear-gradient(to right bottom, $color-red-light, $color-red-dark),
+      background-image: linear-gradient(
+          to right bottom,
+          $color-red-light,
+          $color-red-dark
+        ),
         url(../img/projects/marvel-test.png);
+    }
+
+    &--4 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-pink-light,
+          $color-pink-dark
+        ),
+        url(../img/projects/anisearch.png);
+    }
+
+    &--5 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-purple-light,
+          $color-purple-dark
+        ),
+        url(../img/projects/bethehero.png);
+    }
+
+    &--6 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-primary-light,
+          $color-primary-dark
+        ),
+        url(../img/projects/shiga-projects-v2.png);
+    }
+
+    &--7 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-orange-light,
+          $color-orange-dark
+        ),
+        url(../img/projects/codepen.png);
     }
   }
 
@@ -56,15 +104,59 @@
     box-decoration-break: clone;
 
     &--1 {
-      background-image: linear-gradient(to right bottom, rgba($color-blue-light, 0.85), rgba($color-blue-dark, 0.85));
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-blue-light, 0.85),
+        rgba($color-blue-dark, 0.85)
+      );
     }
 
     &--2 {
-      background-image: linear-gradient(to right bottom, rgba($color-green-light, 0.85), rgba($color-green-dark, 0.85));
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-green-light, 0.85),
+        rgba($color-green-dark, 0.85)
+      );
     }
 
     &--3 {
-      background-image: linear-gradient(to right bottom, rgba($color-red-light, 0.85), rgba($color-red-dark, 0.85));
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-red-light, 0.85),
+        rgba($color-red-dark, 0.85)
+      );
+    }
+
+    &--4 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-pink-light, 0.85),
+        rgba($color-pink-dark, 0.85)
+      );
+    }
+
+    &--5 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-purple-light, 0.85),
+        rgba($color-purple-dark, 0.85)
+      );
+    }
+
+    &--6 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.85),
+        rgba($color-primary-dark, 0.85)
+      );
+    }
+
+    &--7 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-orange-light, 0.85),
+        rgba($color-orange-dark, 0.85)
+      );
     }
   }
 
@@ -98,15 +190,59 @@
     }
 
     &--1 {
-      background-image: linear-gradient(to right bottom, rgba($color-blue-light, 0.85), rgba($color-blue-dark, 0.85));
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-blue-light, 0.85),
+        rgba($color-blue-dark, 0.85)
+      );
     }
 
     &--2 {
-      background-image: linear-gradient(to right bottom, rgba($color-green-light, 0.85), rgba($color-green-dark, 0.85));
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-green-light, 0.85),
+        rgba($color-green-dark, 0.85)
+      );
     }
 
     &--3 {
-      background-image: linear-gradient(to right bottom, rgba($color-red-light, 0.85), rgba($color-red-dark, 0.85));
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-red-light, 0.85),
+        rgba($color-red-dark, 0.85)
+      );
+    }
+
+    &--4 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-pink-light, 0.85),
+        rgba($color-pink-dark, 0.85)
+      );
+    }
+
+    &--5 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-purple-light, 0.85),
+        rgba($color-purple-dark, 0.85)
+      );
+    }
+
+    &--6 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.85),
+        rgba($color-primary-dark, 0.85)
+      );
+    }
+
+    &--7 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-orange-light, 0.85),
+        rgba($color-orange-dark, 0.85)
+      );
     }
   }
 }

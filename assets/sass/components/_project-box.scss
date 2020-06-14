@@ -61,6 +61,11 @@
       background-image: linear-gradient(to right bottom, $color-blue-light, $color-blue-dark),
         url(../img/projects/skyweather.png);
     }
+
+    &--9 {
+      background-image: linear-gradient(to right bottom, $color-green-light, $color-green-dark),
+        url(../img/projects/next-level-week01.png);
+    }
   }
 
   &__heading {
@@ -122,6 +127,10 @@
 
     &--8 {
       background-image: linear-gradient(to right bottom, rgba($color-blue-light, 0.85), rgba($color-blue-dark, 0.85));
+    }
+
+    &--9 {
+      background-image: linear-gradient(to right bottom, rgba($color-green-light, 0.85), rgba($color-green-dark, 0.85));
     }
   }
 
@@ -196,6 +205,10 @@
 
     &--8 {
       background-image: linear-gradient(to right bottom, rgba($color-blue-light, 0.85), rgba($color-blue-dark, 0.85));
+    }
+
+    &--9 {
+      background-image: linear-gradient(to right bottom, rgba($color-green-light, 0.85), rgba($color-green-dark, 0.85));
     }
   }
 }

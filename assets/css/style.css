@@ -419,6 +419,8 @@ body {
       background-image: linear-gradient(to right bottom, #f9ab55, #ff7d00), url(../img/projects/codepen.png); }
     .project-box__image--8 {
       background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/projects/skyweather.png); }
+    .project-box__image--9 {
+      background-image: linear-gradient(to right bottom, #88d498, #1a936f), url(../img/projects/next-level-week01.png); }
   .project-box__heading {
     font-size: 2rem;
     font-weight: 300;
@@ -449,6 +451,8 @@ body {
       background-image: linear-gradient(to right bottom, rgba(249, 171, 85, 0.85), rgba(255, 125, 0, 0.85)); }
     .project-box__heading-span--8 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+    .project-box__heading-span--9 {
+      background-image: linear-gradient(to right bottom, rgba(136, 212, 152, 0.85), rgba(26, 147, 111, 0.85)); }
   .project-box__body {
     margin: 0 auto;
     padding: 3rem 0;
@@ -487,6 +491,8 @@ body {
       background-image: linear-gradient(to right bottom, rgba(249, 171, 85, 0.85), rgba(255, 125, 0, 0.85)); }
     .project-box__footer--8 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+    .project-box__footer--9 {
+      background-image: linear-gradient(to right bottom, rgba(136, 212, 152, 0.85), rgba(26, 147, 111, 0.85)); }
 
 .bg-video {
   position: absolute;

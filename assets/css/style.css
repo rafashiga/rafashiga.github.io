@@ -421,6 +421,8 @@ body {
       background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/projects/skyweather.png); }
     .project-box__image--9 {
       background-image: linear-gradient(to right bottom, #88d498, #1a936f), url(../img/projects/next-level-week01.png); }
+    .project-box__image--10 {
+      background-image: linear-gradient(to right bottom, #25bcf7, #0c7ba7), url(../img/projects/zerolac.png); }
   .project-box__heading {
     font-size: 2rem;
     font-weight: 300;
@@ -453,6 +455,8 @@ body {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
     .project-box__heading-span--9 {
       background-image: linear-gradient(to right bottom, rgba(136, 212, 152, 0.85), rgba(26, 147, 111, 0.85)); }
+    .project-box__heading-span--10 {
+      background-image: linear-gradient(to right bottom, rgba(37, 188, 247, 0.85), rgba(12, 123, 167, 0.85)); }
   .project-box__body {
     margin: 0 auto;
     padding: 3rem 0;
@@ -493,6 +497,8 @@ body {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
     .project-box__footer--9 {
       background-image: linear-gradient(to right bottom, rgba(136, 212, 152, 0.85), rgba(26, 147, 111, 0.85)); }
+    .project-box__footer--10 {
+      background-image: linear-gradient(to right bottom, rgba(37, 188, 247, 0.85), rgba(12, 123, 167, 0.85)); }
 
 .bg-video {
   position: absolute;
